@@ -2,11 +2,12 @@
 A repository for my CS-255 System Analysis and Design Coursework
 
 # Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
-
+DriverPass is a company that aims to help improve the success rate of driving tests at the DMV, helping people earn their driver's licenses by giving them resources and training. They saw a large space open in the online market and decide to make their product into a web application, giving classroom material, driving appointment access, and various other tools to customers. DriverPass' online instructional/scheduling system is the system that I was tasked with designing.
 # What did you do particularly well?
-
+I think I did an excellent job of keeping the project's scope and capability realistic. For instance, I used a lot of third-party tools instead of trying to reinvent the wheel. I used a third-party calendar to schedule appointments, a third-party payment app, and a third-party cloud for data storage. The system is capable of doing everything DriverPass requests and doesn't go outside of those bounds or try to do anything crazy. It's a very modest, realistic system that I feel could translate well to a low-budget project.
 # If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
-
+Some of the non-functional requirements felt small compared to my other sections, and I've wondered if I could flesh them out a bit to be more descriptive. It's difficult to think of every requirement for a system, and I think that giving it a second go-over would help me think of things that I didn't think of before. I also think doing System Design is probably a lot more smoothly when you have a team, at least because different people will be able to think of all the different use cases and system requirements that are more niche.
 # How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
-
+It can be difficult to pick apart what a user truly needs vs what a user wants because oftentimes they don't understand what they're asking for. It takes a lot of analytical thinking and proper prioritization, to pick out requirements from user stories and then refine those requirements into what you do need and what you don't need. 
 # How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+When designing a piece of software, I try to start with the core goal of the project and then stem from there. I often struggle with hyper-focusing on a few aspects of a piece of software and struggling to tie up the other aspects. I'm still figuring out the balancing act of it all, and I think that is an especially important aspect to try and master for system design. Systems have a lot more going on to them than just programming, so it's important to keep in mind all of these connections while designing them. Organizing is super important, and I have a few techniques that help me with this when writing a piece of software. I will often outline things in comments before I start implementing, and then unit test bit by bit so I don't lose track of where I am.
